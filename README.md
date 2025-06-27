@@ -49,19 +49,42 @@
 - ✅ 可搜索文本库生成
 
 ## 📁 项目结构
-
-
+```
 ray-dalio-project/
-├── Books/                     # PDF书籍原文件
-├── Articles/                  # 文章HTML合集
-├── Speeches/                  # 演讲文字稿
-├── Quotes/                    # 语录合集
-├── Output/
-│   ├── TXT/                   # PDF转换后的文本文件
-│   ├── Final/                 # 最终合集文件
-│   └── Markdown/              # Markdown格式输出
-└── *.sh                       # 自动化处理脚本
-
+│
+├── 📚 Books/                          # PDF书籍原文件 (7本)
+│   ├── principles-life-and-work.pdf
+│   ├── principles-for-navigating-big-debt-crises.pdf
+│   ├── changing-world-order.pdf
+│   └── ...
+│
+├── 📰 Articles/                       # 文章HTML合集 (2个)
+│   ├── ray_dalio_blog_collection.html
+│   └── ray_dalio_quotes.html
+│
+├── 🎤 Speeches/                       # 演讲文字稿 (2篇)
+│   ├── 2013_Economic_Machine_transcript.html
+│   └── 2025_Moonshots_transcript.html
+│
+├── 💭 Quotes/                         # 语录合集 (3个)
+│   ├── ray_dalio_quotes_35_collection.html
+│   ├── principles_summary_quotes.html
+│   └── book_summaries_quotes.html
+│
+├── 📤 Output/                         # 处理后的输出文件
+│   ├── 📄 TXT/                       # PDF转换的纯文本 (7个)
+│   ├── 🎯 Final/                     # 最终合集文件 (3.8MB)
+│   │   └── RayDalio_Complete_Collection.md
+│   └── 📝 Markdown/                  # Markdown格式输出
+│
+└── 🔧 自动化脚本/                      # 处理工具 (6个)
+├── download_all_pdfs_complete.sh
+├── download_speeches_articles.sh
+├── download_quotes.sh
+├── convert_all_pdfs.sh
+├── final_integration.sh
+└── process_dalio.sh
+```
 
 ## 🚀 快速开始
 
