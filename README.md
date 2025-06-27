@@ -181,4 +181,3 @@ grep "原则" Output/Final/RayDalio_Complete_Collection.md
 **⭐ 如果这个项目对你有帮助，请给个Star支持！**
 
 *"原则是应对现实的方法，帮助你得到你想要的东西。" - Ray Dalio*
-```
