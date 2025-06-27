@@ -1,5 +1,3 @@
-请在编辑器中输入以下专业的README内容：
-
 ```markdown
 # 雷·达里奥完整思想资料库 📚
 *Ray Dalio Complete Works Collection*
